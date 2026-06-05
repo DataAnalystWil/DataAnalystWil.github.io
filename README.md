@@ -2,9 +2,15 @@
 
 # Acerca de mí
 
-Profesionista en Contaduría Publica y Dirección de Empresas con certificación en Análisis de Datos. Capacidad de Líderazgo, planificación, ejecución, finalización de proyectos y coordinación de equipos multidisciplinarios.
+Transformo datos en decisiones y proyectos en resultados.
 
-Demuestro una verdadera pasión para comprender las necesidades de la empresa y desarrollar soluciones. Versátil, trabajadora y siempre dispuesta a asumir responsabilidades. Excelente en el análisis, toma de decisiones y trabajo en equipo
+Con más de 20 años de experiencia en finanzas, consultoría y análisis de datos, combino una visión estratégica de negocio con herramientas técnicas modernas para ayudar a las organizaciones a tomar mejores decisiones.
+
+He liderado equipos multidisciplinarios en proyectos de transformación, reducido tiempos de cierre financiero de semanas a 3 días hábiles, y desarrollado soluciones de análisis de datos con Python, SQL y Streamlit que hoy están desplegadas en la nube.
+
+Mi experiencia como Contralora en Suministros de Maíz del Mayab y como Consultora Senior en Estrategia y Tecnología THO me dio algo que pocos analistas tienen: entender los datos desde adentro de la operación, no solo desde la pantalla.
+
+Actualmente me especializo en análisis de datos, visualización e inteligencia de negocios, con certificación en proceso de TripleTen. Me apasiona trabajar con equipos donde los datos y las personas importen por igual.
 
 ## Habilidades Tecnológicas
 
