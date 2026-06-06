@@ -1,4 +1,4 @@
-![Portada](Banner_Analista%20de%20Datos8.png)
+![Portada](Banner_Analista%20de%20Datos2.png)
 
 # Acerca de mí
 
