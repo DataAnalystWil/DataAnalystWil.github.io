@@ -65,10 +65,12 @@ Al comparar los resultados de ambos gráficos, notamos que mientras la oferta (e
 
 Se puede observar el amplio margen de número de viajes de la empresa que encabeza la lista de los top 10.
 
-![Empresas de viajes y números de viajes](https://github.com/DataAnalystWil/DataAnalystWil/blob/5a44b360dab0cce9602c85482a30bb1cfc2b1d62/Top%2010%20Empresas%20Viajes.png)
+![Empresas de viajes y números de viajes](Top%2010%20Empresas%20Viajes.png)
+
 
 ###### **Gráfico 2: Los 10 barrios principales por promedio de finalizaciones**
 
 Se puede observar que el flujo principal de pasajeros se mueve hacia los barrios que concentra los lugares de trabajo, hoteles y puntos de interés turístico.
 
-![Barrios principales](https://github.com/DataAnalystWil/DataAnalystWil/blob/3b6a23fd40701caab6a93354f032e3b87e682086/Top%2010%20Barrios%20Chicago.png)
+![Barrios principales](Top%2010%20Empresas%20Viajes.png)
+
