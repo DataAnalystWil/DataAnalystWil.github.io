@@ -1,7 +1,8 @@
-![Portada](Banner_Analista%20de%20Datos8.png)
+![Portada](https://dataanalystwil.github.io/Banner_Analista%20de%20Datos8.png)
 
 # Acerca de mí
-![Mi Foto de Perfil](https://github.com)
+
+<img src="https://avatars.githubusercontent.com/u/256418780?v=4" width="150" align="right" style="border-radius:50%">
 
 Transformo datos en decisiones y proyectos en resultados.
 
@@ -11,67 +12,57 @@ He liderado equipos multidisciplinarios en proyectos de transformación, reducid
 
 Mi experiencia como Contralora en Suministros de Maíz del Mayab y como Consultora Senior en Estrategia y Tecnología THO me dio algo que pocos analistas tienen: entender los datos desde adentro de la operación, no solo desde la pantalla.
 
-Actualmente me especializo en análisis de datos, visualización e inteligencia de negocios, con certificación en proceso de TripleTen. Me apasiona trabajar con equipos donde los datos y las personas importen por igual.
+Actualmente me especializo en análisis de datos, visualización e inteligencia de negocios, con certificación en proceso de TripleTen.
+
+---
 
 ## Habilidades Tecnológicas
 
-* Análisis y gestión de datos: Python | SQL | Data Visualization | ETL 
-* Visualización de datos: Pandas | NumPy | Matplotlib | Seaborn
+- Análisis y gestión de datos: Python · SQL · Data Visualization · ETL
+- Visualización de datos: Pandas · NumPy · Matplotlib · Seaborn · Streamlit
 
 ## Habilidades Blandas
 
-Direccion | Administración | Análisis de Datos | Narración de Datos | Resolución de problemas | Administración y gestión de proyectos | Trabajo en equipo | Comunicación efectiva
+Dirección · Administración · Análisis de Datos · Narración de Datos · Resolución de problemas · Gestión de proyectos · Trabajo en equipo · Comunicación efectiva
 
-[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/wilma-cruz-74279822)
+---
 
-[Correo de contacto](mailto:wilma.cruz@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wilma-cruz-74279822)
+[![Correo](https://img.shields.io/badge/Correo-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wilma.cruz@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DataAnalystWil)
+
+---
 
 # Proyectos Seleccionados
-#### Comprender las preferencias de los pasajeros y el impacto de los factores externos en los viajes
-Analizamos los datos para Zuber, una nueva empresa de viajes compartidos que se está lanzando en Chicago. La tarea consistió en encontrar patrones en la información disponible. El objetivo era comprender las preferencias de los pasajeros y el impacto de los factores externos en los viajes.
-Trabajamos con una base de datos, analizamos los datos de los competidores y probamos una hipótesis sobre el impacto del clima en la frecuencia de los viajes.
 
-##### Herramientas utilizadas
+## 🚕 Preferencias de pasajeros e impacto del clima en viajes (Zuber · Chicago)
 
-Phyton | Pandas | Seaborn | Matplotlib | BeautifulSoup | SQL | ETL | Data Storyteller
+**Herramientas:** Python · Pandas · Seaborn · Matplotlib · BeautifulSoup · SQL · ETL
 
-##### Pregunta Clave
+Análisis de datos para Zuber, una nueva empresa de viajes compartidos en Chicago. El objetivo fue encontrar patrones en la información disponible, comprender las preferencias de los pasajeros y el impacto de los factores externos en los viajes. Se trabajó con una base de datos de competidores y se probó una hipótesis sobre el impacto del clima en la duración de los viajes.
 
-* ¿Afecta el clima en la duración de los viajes?
-* ¿Que hace a las empresas de viajes más popular?
+**Preguntas clave:**
+- ¿Afecta el clima en la duración de los viajes?
+- ¿Qué hace a las empresas de viajes más populares?
 
-##### Metodología
+**Metodología:**
+- **ETL:** Recopilación de datos desde HTML, transformación y carga para análisis. Limpieza y estandarización de datos.
+- **EDA:** Identificación de los 10 principales barrios con más finalizaciones de recorridos.
+- **Prueba de hipótesis:** Duración promedio de viajes Loop–Aeropuerto O'Hare en sábados lluviosos.
 
-* **Extracción, Transformación y Carga (ETL):** Se recopilaron los datos desde una fuente de HTML, se convirtieron en un formato que se puedan entender y manipuilar y se cargaron en un almacen para ser analizados. Se limpiaronn y estandarizaron para asegurar calidad y consistencia.
-* **Análisis Exploratorio de Datos (EDA):** Se analizaron y se identificaron los 10 principales barrios con más finalizaciones de recoriidos.
-* **Prueba de Hipótesis:** Se definió y ejecutó la prueba de hipótesis nula y alternativa con base a si la duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia los sábados lluviosos.
+**Conclusiones:**
+- Flash Cab domina el mercado con el doble de viajes que Taxi Affiliation Services.
+- La demanda se concentra en **The Loop, River North y Streeterville** — zonas de trabajo, hoteles y turismo.
+- El éxito de una empresa de transporte depende principalmente de su presencia en barrios del centro y zonas comerciales.
 
-##### Conclusiones y recomendaciones
+**Gráfico 1: Top 10 empresas de taxis por número de viajes**
 
-###### Empresas de viajes
+![Top 10 Empresas de viajes](https://dataanalystwil.github.io/Top%2010%20Empresas%20Viajes.png)
 
-La empresa Flash Cab refleja un claro dominio en el mercado de servicio de taxi, concentra un alto volumen de viajes encabezando la lista de las top 10 de empresas de servicios de viaje. Aunque la enpresa Taxi Afilliation Services se muestra como la segunda, hay un amplio margen entre ambas, prácticamente la ventaja de Flash Cab es el doble de cantidad de viajes de Taxi Afilliation Services. Es interesante, analizar a profundidad que hace diferente Flash Cab para tener ese gran ventaja y dominio en el mercado.
+**Gráfico 2: Los 10 barrios principales por promedio de finalizaciones**
 
-###### Los 10 barrios principales
+![Top 10 Barrios Chicago](https://dataanalystwil.github.io/Top%2010%20Barrios%20Chicago.png)
 
-El mayor número de finalización de viajes se concentra en el barrio de Loop, seguida del barrio River North con un margen muy pequeño y en la tercera posición Streeterville. Investigando encontramos que en El barrio The Loop se encuentra en el centro geográfico y comercial de Chicago, Illinois, delimitado por el río Chicago al norte y oeste, el lago Michigan al este y Ida B. Wells Drive al sur. Es el corazón financiero de la ciudad, famoso por su arquitectura, el sistema de tren elevado y atracciones icónicas como el Millennium Park. Streeterville es un exclusivo y moderno barrio en el área comunitaria Near North Side de Chicago, ubicado junto al lago Michigan. Limita al sur con el río Chicago, al oeste con la Magnificent Mile (Michigan Avenue) y al este con el lago, destacando por sus rascacielos, hoteles de lujo y el Navy Pier. Teniendo esta información, podemos confirmar que en esos barrios de Chicago el flujo principal de pasajeros se mueve hacia lugares de trabajo, hoteles y puntos de interés turístico, lo cual es clave para posicionar conductores en horas pico.
+---
 
-###### Conclusión general
-
-Al comparar los resultados de ambos gráficos, notamos que mientras la oferta (empresas) está concentrada mayormente en una o en pocas, la demanda (destinos) se concentra en puntos geográficos específicos. Esto sugiere que el éxito de una empresa de transporte en esta ciudad depende principalmente de su presencia en los barrios del centro, turísticos, zonas comerciales.
-
-##### Visualización de datos
-
-###### **Gráfico 1: Empresas de taxis y número de viajes**
-
-Se puede observar el amplio margen de número de viajes de la empresa que encabeza la lista de los top 10.
-
-![Empresas de viajes y números de viajes](Top%2010%20Empresas%20Viajes.png)
-
-
-###### **Gráfico 2: Los 10 barrios principales por promedio de finalizaciones**
-
-Se puede observar que el flujo principal de pasajeros se mueve hacia los barrios que concentra los lugares de trabajo, hoteles y puntos de interés turístico.
-
-![Barrios principales](Top%2010%20Barrios%20Chicago.png)
-
+*Más proyectos próximamente · [Ver repositorios](https://github.com/DataAnalystWil?tab=repositories)*
