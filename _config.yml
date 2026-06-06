@@ -1,3 +1,2 @@
-theme: jekyll-theme-minimal
-title: Wilma Cruz
-description: Analista de Datos | Inteligencia de Negocios
+# Deshabilitar procesamiento Jekyll — usar index.html directamente
+plugins: []
