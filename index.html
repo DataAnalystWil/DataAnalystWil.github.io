@@ -1,4 +1,4 @@
-OCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -723,6 +723,174 @@ OCTYPE html>
                 La demanda se concentra en el centro, turismo y zonas comerciales.
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROYECTO 2 — TELECOMUNICACIONES ── -->
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-top-left">
+            <div class="project-tag">EDA · Hipótesis · Tableau · KPIs</div>
+            <h2>Telecomunicaciones — Identificación de operadores ineficaces</h2>
+            <div class="project-tools">
+              <span class="tool-pill">Python</span>
+              <span class="tool-pill">Pandas</span>
+              <span class="tool-pill">Seaborn</span>
+              <span class="tool-pill">Matplotlib</span>
+              <span class="tool-pill">SciPy</span>
+              <span class="tool-pill">Tableau</span>
+              <span class="tool-pill">ETL</span>
+            </div>
+          </div>
+          <div class="project-idx">02</div>
+        </div>
+        <div class="project-body">
+          <p>Análisis para una empresa de telecomunicaciones en EE.UU. con el objetivo de identificar operadores ineficaces dentro de un equipo de 1,092 agentes. Se trabajó con un dataset de 53,902 registros de llamadas, aplicando un pipeline completo de limpieza, análisis estadístico y construcción de un score de ineficiencia por operador.</p>
+
+          <div class="project-cols">
+            <div>
+              <div class="project-col-title">Criterios de ineficiencia</div>
+              <ul>
+                <li>Llamadas perdidas superiores al percentil 75</li>
+                <li>Tiempo de espera promedio mayor a 152 segundos</li>
+                <li>Menos de 15 llamadas salientes (percentil 25)</li>
+                <li>Score ≥ 2 alertas activas = operador ineficaz</li>
+              </ul>
+            </div>
+            <div>
+              <div class="project-col-title">Metodología</div>
+              <ul>
+                <li><strong>ETL:</strong> Limpieza de 4,900 duplicados y 8,172 nulos en operator_id.</li>
+                <li><strong>EDA:</strong> Segmentación por tipo de llamada (interna/externa).</li>
+                <li><strong>Hipótesis:</strong> Mann-Whitney U y prueba t de Student.</li>
+                <li><strong>Dashboard:</strong> Tableau Public interactivo.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="insight-box">
+            <div class="insight-box-title">💡 KPIs del impacto</div>
+            <p><strong>37 clientes</strong> expuestos a operadores ineficaces (5.1% de la base). <strong>430 llamadas perdidas</strong> atribuidas al grupo ineficaz. Brecha de rendimiento del <strong>151.8%</strong> en tiempo de espera: 172.5s (ineficaces) vs 68.5s (eficaces). El Plan A es el segmento más afectado con mayor riesgo de churn.</p>
+          </div>
+
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+            <a href="proyectos/Sprint_15_Telecomunicaciones_clean.ipynb" target="_blank" class="btn btn-primary" style="font-size:12px; padding:9px 18px;">
+              Ver notebook
+            </a>
+            <a href="https://public.tableau.com/app/profile/wilma.cruz/viz/DashboarddeEficienciaOperativa-TelecomUS_/DashboarddeEficienciaOperativa-TelecomUS_" target="_blank" class="btn btn-gold" style="font-size:12px; padding:9px 18px;">
+              Ver dashboard Tableau
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROYECTO 3 — TEST A/B ── -->
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-top-left">
+            <div class="project-tag">Prueba A/B · Test z · Análisis estadístico</div>
+            <h2>Prueba A/B — Evaluación de sistema de recomendaciones (e-commerce)</h2>
+            <div class="project-tools">
+              <span class="tool-pill">Python</span>
+              <span class="tool-pill">Pandas</span>
+              <span class="tool-pill">SciPy</span>
+              <span class="tool-pill">statsmodels</span>
+              <span class="tool-pill">Matplotlib</span>
+              <span class="tool-pill">Test z</span>
+            </div>
+          </div>
+          <div class="project-idx">03</div>
+        </div>
+        <div class="project-body">
+          <p>Evaluación estadística de una prueba A/B en una tienda en línea internacional para determinar si un nuevo sistema de recomendaciones mejoraba la conversión en el funnel de compra. El análisis incluyó validación del diseño del experimento, identificación de anomalías y aplicación del test z de proporciones en 3 etapas del funnel.</p>
+
+          <div class="project-cols">
+            <div>
+              <div class="project-col-title">Funnel evaluado</div>
+              <ul>
+                <li>product_page → visualización de productos</li>
+                <li>product_cart → artículos al carrito</li>
+                <li>purchase → compras completadas</li>
+                <li>Objetivo: +10% de lift en cada etapa</li>
+              </ul>
+            </div>
+            <div>
+              <div class="project-col-title">Anomalías identificadas</div>
+              <ul>
+                <li>Desbalance 3:1 entre grupos A (2,604) y B (877)</li>
+                <li>Dos pruebas A/B corriendo simultáneamente</li>
+                <li>Campaña navideña solapada (9.2% de eventos)</li>
+                <li>Anomalía temporal desde el 14 de diciembre</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="insight-box">
+            <div class="insight-box-title">💡 Conclusión principal</div>
+            <p>El grupo B obtuvo peores resultados en las 3 etapas del funnel: −13.1% en product_page (p&lt;0.0001), −7.4% en product_cart (p=0.2147, no significativo) y −11.2% en purchase (p=0.0465). Veredicto: experimento no válido — se recomendó repetirlo bajo condiciones controladas antes de lanzar el sistema.</p>
+          </div>
+
+          <div style="margin-top:20px;">
+            <a href="proyectos/Sprint_15_Test_AB_clean.ipynb" target="_blank" class="btn btn-primary" style="font-size:12px; padding:9px 18px;">
+              Ver notebook
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROYECTO 4 — SQL ── -->
+      <div class="project-card reveal">
+        <div class="project-top">
+          <div class="project-top-left">
+            <div class="project-tag">SQL · PostgreSQL · Análisis de negocio</div>
+            <h2>SQL — Análisis de plataforma de libros para startup editorial</h2>
+            <div class="project-tools">
+              <span class="tool-pill">SQL</span>
+              <span class="tool-pill">PostgreSQL</span>
+              <span class="tool-pill">Python</span>
+              <span class="tool-pill">Pandas</span>
+              <span class="tool-pill">SQLAlchemy</span>
+              <span class="tool-pill">CTEs</span>
+              <span class="tool-pill">JOINs</span>
+            </div>
+          </div>
+          <div class="project-idx">04</div>
+        </div>
+        <div class="project-body">
+          <p>Análisis SQL sobre la base de datos de una plataforma de libros para apoyar el desarrollo de una nueva aplicación para lectores. Se ejecutaron 5 consultas con CTEs, JOINs y funciones agregadas sobre 5 tablas relacionales (books, authors, publishers, ratings, reviews) para generar recomendaciones estratégicas de negocio.</p>
+
+          <div class="project-cols">
+            <div>
+              <div class="project-col-title">Preguntas respondidas</div>
+              <ul>
+                <li>¿Cuántos libros se publicaron después del año 2000?</li>
+                <li>¿Cuál es la calificación promedio por libro?</li>
+                <li>¿Qué editorial domina en libros de +50 páginas?</li>
+                <li>¿Qué autor tiene mejor calificación con muestra sólida?</li>
+                <li>¿Cuántas reseñas escriben los usuarios más activos?</li>
+              </ul>
+            </div>
+            <div>
+              <div class="project-col-title">Hallazgos clave</div>
+              <ul>
+                <li><strong>819 libros</strong> publicados desde el año 2000 — catálogo moderno.</li>
+                <li><strong>Penguin Books</strong> lidera con 42 títulos de +50 páginas.</li>
+                <li><strong>J.K. Rowling</strong> con 4.28 promedio sobre ≥50 calificaciones.</li>
+                <li>Usuarios críticos escriben <strong>24.33 reseñas</strong> en promedio.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="insight-box">
+            <div class="insight-box-title">💡 Recomendación estratégica</div>
+            <p>Penguin Books es el aliado B2B prioritario — un acuerdo garantiza el 5% del catálogo relevante de golpe. Los usuarios de alto consumo (+50 libros calificados) son el motor de contenido orgánico gratuito y deben protegerse con un programa de lealtad tipo "Crítico Élite".</p>
+          </div>
+
+          <div style="margin-top:20px;">
+            <a href="proyectos/Sprint_15_Proyecto_SQL_clean.ipynb" target="_blank" class="btn btn-primary" style="font-size:12px; padding:9px 18px;">
+              Ver notebook
+            </a>
           </div>
         </div>
       </div>
