@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+OCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -91,54 +91,42 @@
       overflow: hidden;
       padding-top: 58px;
     }
-    /* geometric background */
-    .hero::before {
-      content: '';
+    /* Banner como fondo con overlay oscuro para legibilidad */
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('Banner_Analista de Datos8.png');
+      background-size: cover;
+      background-position: center 30%;
+      background-repeat: no-repeat;
+      opacity: 0.22;
+      z-index: 0;
+    }
+    /* Gradiente encima del banner para asegurar legibilidad del texto */
+    .hero-overlay {
       position: absolute; inset: 0;
       background:
-        radial-gradient(ellipse 80% 60% at 70% 40%, rgba(14,124,123,0.18) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 40% at 20% 80%, rgba(212,168,67,0.10) 0%, transparent 50%);
-      pointer-events: none;
+        linear-gradient(135deg, rgba(13,27,42,0.92) 0%, rgba(13,27,42,0.75) 60%, rgba(13,27,42,0.88) 100%),
+        radial-gradient(ellipse 70% 50% at 75% 40%, rgba(14,124,123,0.15) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 15% 75%, rgba(212,168,67,0.08) 0%, transparent 50%);
+      z-index: 0;
     }
-    /* diagonal accent line */
+    /* línea diagonal decorativa */
     .hero::after {
       content: '';
       position: absolute;
-      top: 0; right: 18%;
+      top: 0; right: 20%;
       width: 1px; height: 100%;
-      background: linear-gradient(180deg, transparent, rgba(14,124,123,0.35) 30%, rgba(14,124,123,0.35) 70%, transparent);
+      background: linear-gradient(180deg, transparent, rgba(14,124,123,0.25) 30%, rgba(14,124,123,0.25) 70%, transparent);
       pointer-events: none;
-    }
-
-    .hero-banner-wrap {
-      width: 100%;
-      max-height: 280px;
-      overflow: hidden;
-      position: relative;
-    }
-    .hero-banner-wrap::after {
-      content: '';
-      position: absolute; inset: 0;
-      background: linear-gradient(180deg, transparent 40%, var(--dark) 100%);
-    }
-    .hero-banner {
-      width: 100%;
-      object-fit: cover;
-      object-position: center 30%;
-      display: block;
-      opacity: 0.7;
-    }
-    .hero-banner-placeholder {
-      width: 100%; height: 200px;
-      background: linear-gradient(135deg, #132233 0%, #1a3a5c 50%, #0e3a50 100%);
+      z-index: 1;
     }
 
     .hero-content {
       flex: 1;
       display: flex; align-items: center;
-      padding: 48px 72px 80px;
+      padding: 56px 72px 88px;
       gap: 64px;
-      position: relative; z-index: 1;
+      position: relative; z-index: 2;
     }
 
     /* profile photo */
@@ -197,15 +185,10 @@
     }
     .hero h1 {
       font-family: 'Playfair Display', serif;
-      font-size: clamp(36px, 5vw, 58px);
+      font-size: clamp(38px, 5vw, 62px);
       color: var(--white);
       line-height: 1.08;
-      margin-bottom: 8px;
-    }
-    .hero h1 span {
-      color: var(--gold);
-      display: block;
-      font-style: italic;
+      margin-bottom: 12px;
     }
     .hero-role {
       font-size: 14px;
@@ -517,7 +500,7 @@
     @media (max-width: 900px) {
       nav { padding: 0 24px; }
       .nav-links { gap: 18px; }
-      .hero-content { flex-direction: column; padding: 40px 28px 64px; gap: 40px; }
+      .hero-content { flex-direction: column; padding: 56px 28px 64px; gap: 40px; }
       .profile-photo-ring { width: 140px; height: 140px; }
       .section { padding: 56px 28px; }
       .skills-grid { grid-template-columns: 1fr; }
@@ -551,14 +534,9 @@
 
   <!-- ── HERO ── -->
   <section class="hero" id="sobre-mi">
-    <div class="hero-banner-wrap">
-      <img
-        src="Banner_Analista de Datos8.png"
-        alt="Banner Wilma Cruz"
-        class="hero-banner"
-        onerror="this.parentElement.innerHTML='<div class=\'hero-banner-placeholder\'></div>'"
-      >
-    </div>
+    <!-- Banner como fondo -->
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
 
     <div class="hero-content">
       <!-- Foto de perfil -->
@@ -578,7 +556,7 @@
       <!-- Texto -->
       <div class="hero-text reveal" style="transition-delay:0.1s">
         <div class="hero-eyebrow">Mérida, Yucatán · Disponible para proyectos</div>
-        <h1>Wilma Cruz<span>DataAnalystWil</span></h1>
+        <h1>Wilma Cruz</h1>
         <div class="hero-role">Analista de Datos · Inteligencia de Negocios · Project Manager</div>
         <p class="hero-bio">
           Transformo datos en decisiones y proyectos en resultados.<br><br>
