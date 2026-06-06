@@ -1,6 +1,7 @@
 ![Portada](Banner_Analista%20de%20Datos8.png)
 
 # Acerca de mí
+![Mi Foto de Perfil](https://github.com)
 
 Transformo datos en decisiones y proyectos en resultados.
 
