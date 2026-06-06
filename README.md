@@ -72,5 +72,5 @@ Se puede observar el amplio margen de número de viajes de la empresa que encabe
 
 Se puede observar que el flujo principal de pasajeros se mueve hacia los barrios que concentra los lugares de trabajo, hoteles y puntos de interés turístico.
 
-![Barrios principales](Top%2010%20Empresas%20Viajes.png)
+![Barrios principales](Top%2010%20Barrios%20Chicago.png)
 
