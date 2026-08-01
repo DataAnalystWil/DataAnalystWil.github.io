@@ -27,7 +27,7 @@ Análisis de Tendencias.
 Gap Analysis · Historias de Usuario · Casos de Negocio · SDLC · Agile/Scrum · Certificación avalada CBAP
 - Gestión Financiera: Reportería Financiera · Reconciliación de Datos · Modelado Financiero · Análisis de
 Rentabilidad · KPIs · Automatización de Reportes · Control Interno.
-Herramientas: SAP · Oracle · Excel Avanzado · VBA · GitHub · Jupyter Notebook · Render · PowerPoint
+- Herramientas: ERP · Excel Avanzado · VBA · GitHub · Jupyter Notebook · Render · PowerPoint
 
 ## Habilidades Blandas
 
