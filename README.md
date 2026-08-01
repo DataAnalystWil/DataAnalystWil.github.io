@@ -4,20 +4,30 @@
 
 <img src="https://avatars.githubusercontent.com/u/256418780?v=4" width="150" align="right" style="border-radius:50%">
 
-Transformo datos en decisiones y proyectos en resultados.
+Business Analyst especializada en transformar datos y procesos en decisiones estratégicas de negocio. Combino
+una sólida experiencia en finanzas, consultoría e implementación de soluciones empresariales con capacidades
+analíticas en Python, SQL y Business Intelligence para identificar oportunidades de mejora, optimizar procesos y generar información que impulse la toma de decisiones.
 
-Con más de 20 años de experiencia en finanzas, consultoría y análisis de datos, combino una visión estratégica de negocio con herramientas técnicas modernas para ayudar a las organizaciones a tomar mejores decisiones.
+He liderado 9 implementaciones de ERP, gestionado equipos multidisciplinarios de hasta 15 personas, optimizado procesos financieros reduciendo los tiempos de cierre de semanas a 3 días hábiles y desarrollado
+soluciones analíticas que convierten datos complejos en información accionable para la alta dirección.
 
-He liderado equipos multidisciplinarios en proyectos de transformación, reducido tiempos de cierre financiero de semanas a 3 días hábiles, y desarrollado soluciones de análisis de datos con Python, SQL y Streamlit que hoy están desplegadas en la nube.
-
-Actualmente me especializo en análisis de datos, visualización e inteligencia de negocios, con certificación en proceso de TripleTen.
+Actualmente fortalezco mi perfil técnico con la certificación Data Analyst de TripleTen, buscando aportar como
+Business Analyst en organizaciones orientadas a la mejora continua y la transformación basada en datos.
+Disponible en Mérida, Yucatán y modalidad remota
 
 ---
 
 ## Habilidades Tecnológicas
 
-- Análisis y gestión de datos: Python · SQL · Data Visualization · ETL
-- Visualización: Pandas · NumPy · Matplotlib · Seaborn · Streamlit · BeautifulSoup
+- Análisis de Datos: Python (Pandas, Matplotlib, Seaborn, SciPy) · SQL · ETL · Análisis Estadístico · Análisis
+Exploratorio de Datos (EDA) · Modelado de Datos (tablas de hechos, dimensiones, jerarquías).
+- Business Intelligence: Power BI · Tableau · Streamlit · Dashboards · Data Storytelling · Reportes Ad Hoc ·
+Análisis de Tendencias.
+- Business Analysis: Levantamiento de Requerimientos · Especificaciones Funcionales · Mapeo de Procesos ·
+Gap Analysis · Historias de Usuario · Casos de Negocio · SDLC · Agile/Scrum · Certificación avalada CBAP
+- Gestión Financiera: Reportería Financiera · Reconciliación de Datos · Modelado Financiero · Análisis de
+Rentabilidad · KPIs · Automatización de Reportes · Control Interno.
+Herramientas: SAP · Oracle · Excel Avanzado · VBA · GitHub · Jupyter Notebook · Render · PowerPoint
 
 ## Habilidades Blandas
 
