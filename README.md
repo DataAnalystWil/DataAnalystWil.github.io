@@ -1,4 +1,4 @@
-![Portada](https://dataanalystwil.github.io/Banner_Analista%20de%20Datos8.png)
+![Portada](https://dataanalystwil.github.io/Banner_Wilma_Cruz_LinkedIn.png)
 
 # Acerca de mí
 
